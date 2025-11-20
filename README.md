@@ -1,3 +1,3 @@
 # deltastream-databricks
 
-A simple module.
+A module to demo calling deltastream from within Databricks.
