@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deltastream-databricks"
+version = "0.1.0"
+description = "Databricks utilities for Deltastream"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "deltastream-connector>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/you/deltastream-databricks"
