@@ -6,6 +6,7 @@ from pyspark.sql.functions import explode, col, from_json, schema_of_json, lit
 
 def query_deltastream(
     spark,
+    dbutils,
     sql_query,
     api_scope="myscope",
     api_key_name="ds_api",
